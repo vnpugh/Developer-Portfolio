@@ -34,6 +34,18 @@
         display: flex;
 }
 
+/* icons */
+.sidebar-icons {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+}
+/* Style for the icon items */
+.sidebar-icons li {
+    margin-bottom: 25px; /* Add vertical spacing between icons */
+    margin-left: 40px;
+}
+
+
 /* About Me */
     .container-about {
        margin-top: 20em;
@@ -44,3 +56,5 @@
         margin-left: 20em;
     
 }
+
+
