@@ -1,29 +1,46 @@
 /* Reset margin and padding for the body and html elements */
-body, html {
-    margin: 0;
-    padding: 0;
+    body, html {
+        margin: 0;
+        padding: 0;
 }
-.sidebar{
-    background-color: #333;
-    width: 200px;
-    height: 100%;
-    position: fixed;
+
+/* sidebar */
+    .sidebar{
+        background-color: #333;
+        width: 200px;
+        height: 100%;
+        position: fixed;
     /* display: flex; 
     flex-direction: column; 
     justify-content: center;  */
    
 }
-.sidebar-style{
-    list-style-type:none;
+    .sidebar-style{
+        list-style-type:none;
 }
 
    /* Add padding to the list items */
-.sidebar-style li {
-    padding: 20px 0; /* top and bottom padding */
+    .sidebar-style li {
+        padding: 20px 0; /* top and bottom padding */
 }
 
-    /* Remove underlines from links within list items */
-.sidebar-style li a {
+  /* Remove underlines from links within list items */
+    .sidebar-style li a {
         text-decoration: none;
         color: black;
-    }
+}
+
+    .container-sidebar {
+        display: flex;
+}
+
+/* About Me */
+    .container-about {
+       margin-top: 20em;
+}
+
+    .about-me {
+        position: flex;
+        margin-left: 20em;
+    
+}
