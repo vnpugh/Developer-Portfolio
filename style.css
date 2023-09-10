@@ -46,15 +46,52 @@
 }
 
 
+/* Style the first name */
+.container-xxl {
+   
+}
+.name {
+    margin-top: 2em;
+
+  
+} 
+
+
+.first-name {
+    color: blue; /* Change the color as desired */
+    margin-left: 5em; /* Add left margin to separate from the last name */
+   
+}
+
+/* Style the last name */
+.last-name {
+    color: red; /* Change the color as desired */
+
+}
+
+
 /* About Me */
     .container-about {
-       margin-top: 20em;
+        margin-top: 10px; /* Add margin to separate from the name */
+        margin-left: 12.8em;
 }
 
     .about-me {
-        position: flex;
-        margin-left: 20em;
+     
+      
     
 }
+.about-me p {
+    font-size: 16px; /* Adjust the paragraph font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #666; /* Set the paragraph text color */
+}
+
+
+
+
+
+
+
 
 
