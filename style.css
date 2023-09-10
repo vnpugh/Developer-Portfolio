@@ -1,13 +1,14 @@
 /* Reset margin and padding for the body and html elements */
     body, html {
+        height: 100%;
         margin: 0;
         padding: 0;
 }
 
 /* sidebar */
     .sidebar{
-        background-color: #333;
-        width: 200px;
+        background-color: #496b9e;
+        width: 150px;
         height: 100%;
         position: fixed;
     /* display: flex; 
@@ -47,39 +48,41 @@
 
 
 /* Style the first name */
-.container-xxl {
-   
-}
 .name {
     margin-top: 2em;
-
   
 } 
 
-
 .first-name {
-    color: blue; /* Change the color as desired */
-    margin-left: 5em; /* Add left margin to separate from the last name */
+    color: rgb(12, 91, 151); /* Change the color as desired */
+    margin-left: 3em; /* Add left margin to separate from the last name */
+    font-weight: bold;
+    font-size: larger;
    
 }
 
 /* Style the last name */
 .last-name {
-    color: red; /* Change the color as desired */
+    color: rgb(217, 166, 14); /* Change the color as desired */
+
+    font-weight: bold;
+    font-size: larger;
 
 }
 
 
 /* About Me */
-    .container-about {
+.container-about {
         margin-top: 10px; /* Add margin to separate from the name */
-        margin-left: 12.8em;
-}
-
-    .about-me {
-     
+        margin-left: 7.6em;
       
-    
+}
+.img-headshot {
+    height: 10em;
+    border-radius: 50%;
+    border: 4px solid #76ba7f;
+   
+   
 }
 .about-me p {
     font-size: 16px; /* Adjust the paragraph font size */
@@ -87,6 +90,15 @@
     color: #666; /* Set the paragraph text color */
 }
 
+
+.art-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 480px;
+    height: 100vh;
+
+}
 
 
 
