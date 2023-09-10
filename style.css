@@ -10,6 +10,13 @@
   
 }
 
+.hr-style {
+    border-top: 5px solid #095484;
+    width: 60%;
+    margin-left: 8em;
+
+}
+
     .h2-heading {
         color: #14376c;
         font-weight: bold;
@@ -60,7 +67,7 @@
 .sidebar-icons li {
     margin-bottom: 25px; /* Add vertical spacing between icons */
     margin-left: 40px;
-    margin-top: 2.5em;
+    margin-top: 2em;
  
 }
 
@@ -126,6 +133,7 @@
     font-size: 16px; /* Adjust the paragraph font size */
     line-height: 1.5; /* Set the line height for better readability */
     color: black; /* Set the paragraph text color */
+    font-weight: 300;
 }
 
 
@@ -136,6 +144,22 @@
     width: 400px;
     height: 100vh;
     border-left: #14376c solid 8px;
+  
+
+}
+
+/* Skills */
+.container-skills {
+    margin-top: 25px; /* Add margin to separate from the name */
+    margin-left: 8em;
+
+  
+}
+.img-skills {
+   margin-top: 1em;
+    width: 50%;
+    margin-left: 4em;
+  
   
 
 }

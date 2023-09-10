@@ -1,4 +1,4 @@
-let messages = ["Hola, Mundo!🌍","Bonjou, Mond!👋", "Nopp naa, xam neeg!👋", "안녕, 세계!🤘", "Habari, Dunia!✌️",  "Γειά σας, κόσμε🖖", "Ciao, Mondo!🌎"];
+let messages = ["Hello, World!👋","Hola, Mundo!🌍","Bonjou, Mond!👋", "Waah Gwaan, World!🏖️", "Nopp naa, xam neeg!👋", "안녕, 세계!🤘", "Habari, Dunia!✌️", "Γειά σας, κόσμε🖖", "Ciao, Mondo!🌎", "Marhaban bil 'Alam👋", "Kamusta, Mundo!🌎"];
 let messageIndex = 0;
 
 function changeMessage() {
