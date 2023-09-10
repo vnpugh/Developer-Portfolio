@@ -1,13 +1,18 @@
 /* Reset margin and padding for the body and html elements */
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Martel&family=Poppins:wght@200&display=swap');
+
     body, html {
         height: 100%;
         margin: 0;
         padding: 0;
+        font-family: 'Poppins', sans-serif;
+  
 }
 
 /* sidebar */
     .sidebar{
-        background-color: #496b9e;
+        background-color: #14376c;
         width: 150px;
         height: 100%;
         position: fixed;
@@ -50,11 +55,12 @@
 /* Style the first name */
 .name {
     margin-top: 2em;
+
   
 } 
 
 .first-name {
-    color: rgb(12, 91, 151); /* Change the color as desired */
+    color: #14376c; /* Change the color as desired */
     margin-left: 3em; /* Add left margin to separate from the last name */
     font-weight: bold;
     font-size: larger;
@@ -75,6 +81,7 @@
 .container-about {
         margin-top: 10px; /* Add margin to separate from the name */
         margin-left: 7.6em;
+        
       
 }
 .img-headshot {
@@ -95,8 +102,9 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 480px;
+    width: 400px;
     height: 100vh;
+    border-left: #14376c solid 12px;
 
 }
 
