@@ -158,9 +158,21 @@
 .img-skills {
    margin-top: 1em;
     width: 50%;
-    margin-left: 4em;
+    margin-left: 4em;  
+
+}
+
+.container-portfolio {
+    margin-top: 25px; /* Add margin to separate from the name */
+    margin-left: 8em;
+
   
-  
+}
+
+.container-cards-portfolio {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 10em;
 
 }
 
