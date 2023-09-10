@@ -22,6 +22,14 @@
         font-weight: bold;
 }
 
+/* laptop icon */
+.fa-laptop-code {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+}
+
+
 /* sidebar */
     .sidebar{
        
@@ -35,7 +43,7 @@
 }
     .sidebar-style{
         list-style-type:none;
-        margin-top: 8em;
+        /* margin-top: 8em; */
 }
 
    /* Add padding to the list items */
@@ -66,7 +74,7 @@
 /* Style for the icon items */
 .sidebar-icons li {
     margin-bottom: 25px; /* Add vertical spacing between icons */
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 2em;
  
 }
