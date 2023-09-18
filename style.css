@@ -22,12 +22,7 @@
         font-weight: bold;
 }
 
-/* laptop icon */
-.fa-laptop-code {
-    margin-top: 2em;
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
-}
+
 
 
 /* sidebar */
@@ -35,12 +30,19 @@
        
         box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.5);
         background: linear-gradient(to right, #14376c, #2d9d8a);
-        width: 200px;
+        width: 300px;
         height: 100%;
+        align-items: center;
         position: fixed;
 
    
 }
+
+/* .sidebar-img {
+    margin-bottom: 0;
+} */
+
+
     .sidebar-style{
         list-style-type:none;
         margin-top: 8em;
@@ -49,10 +51,9 @@
 
    /* Add padding to the list items */
     .sidebar-style li {
-        padding-top: 1.5em;
-        margin-left: 20px;
-    
-    
+        margin-left: 2em;
+        padding: 1.5em; 
+     
 }
 
 
@@ -80,24 +81,29 @@
 /* Style for the icon items */
 .sidebar-icons li {
     margin-bottom: 25px; /* Add vertical spacing between icons */
-    margin-left: 70px;
-    margin-top: 2em;
+    margin-left: 7em;
+    padding: 1em;
+  
  
 }
+
+
+
+
 
 
 /* Style the first name */
 .name {
 
-    margin-top: 1em;
+    margin-top: 2em;
   
 } 
 
 .first-name {
     color: #14376c; /* Change the color as desired */
-    margin-left: 2.5em; /* Add left margin to separate from the last name */
+    margin-left: 4em; /* Add left margin to separate from the last name */
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.8em;
     text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
 }
 
@@ -106,14 +112,16 @@
     color: #2d9d8a;
 
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.8em;
     text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
 
 }
 
+/* Developer title */
 .title {
-    margin-left: 5.3em;
+    margin-left: 7.8em;
     font-weight: bold;
+    font-size: 2.4em;
     color: #434343;
 }
 
@@ -121,27 +129,21 @@
 
 /* HelloMessage */
     #helloMessage {
-        margin-left: 5.2em;
+        margin-left: 9.5em;
         margin-top: 2em;
         margin-bottom: 2em;
-        font-size: x-large;
+        font-size: 2em;
     }
 
 
 /* About Me */
 .container-about {
         margin-top: 25px; /* Add margin to separate from the name */
-        margin-left: 8em;
+        margin-left: 19em;
         
-      
 }
 
 
-.img-headshot {
-    height: 15em;
-    width: 15em;
-   
-}
 
 .about-me p {
     font-size: 16px; /* Adjust the paragraph font size */
@@ -149,6 +151,18 @@
     color: black; /* Set the paragraph text color */
     font-weight: 300;
 }
+
+/* .about-img {
+    height: 15em;
+    width: 15em;
+  
+   
+} */
+
+
+
+
+
 
  /* Call to Action */
  .row {
