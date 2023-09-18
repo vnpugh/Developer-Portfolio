@@ -10,3 +10,4 @@ function changeMessage() {
 
 // Automatically change the message every 2 seconds (2000 milliseconds)
 setInterval(changeMessage, 2000);
+

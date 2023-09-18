@@ -35,7 +35,7 @@
        
         box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.5);
         background: linear-gradient(to right, #14376c, #2d9d8a);
-        width: 140px;
+        width: 200px;
         height: 100%;
         position: fixed;
 
@@ -43,16 +43,20 @@
 }
     .sidebar-style{
         list-style-type:none;
-        /* margin-top: 8em; */
+        margin-top: 8em;
+      
 }
 
    /* Add padding to the list items */
     .sidebar-style li {
         padding-top: 1.5em;
- 
+        margin-left: 20px;
+    
     
 }
 
+
+  
   /* Remove underlines from links within list items */
     .sidebar-style li a {
         text-decoration: none;
@@ -60,10 +64,12 @@
         font-weight: bolder;
         font-size: larger;
      
+     
 }
 
     .container-sidebar {
         display: flex;
+      
 }
 
 /* icons */
@@ -74,7 +80,7 @@
 /* Style for the icon items */
 .sidebar-icons li {
     margin-bottom: 25px; /* Add vertical spacing between icons */
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 2em;
  
 }
@@ -144,8 +150,27 @@
     font-weight: 300;
 }
 
+ /* Call to Action */
+ .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+ }
 
-.art-img {
+ .h3-cta {
+    margin-top: 2em;
+    margin-left: 4em;
+ }
+ .button-cta {
+  
+    margin-top: 4em;
+ }
+
+
+
+/* .art-img {
     position: fixed;
     top: 0;
     right: 0;
@@ -154,7 +179,7 @@
     border-left: #14376c solid 8px;
   
 
-}
+}  */
 
 /* Skills */
 .container-skills {
@@ -262,6 +287,15 @@ input[type="hidden"] {
 }
 
 
+
+/* footer */
+
+.footer {
+
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
 
 
 
