@@ -30,7 +30,7 @@
        
         box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.5);
         background: linear-gradient(to right, #14376c, #2d9d8a);
-        width: 300px;
+        width: 220px;
         height: 100%;
         align-items: center;
         position: fixed;
@@ -38,21 +38,18 @@
    
 }
 
-/* .sidebar-img {
-    margin-bottom: 0;
-} */
 
 
     .sidebar-style{
         list-style-type:none;
-        margin-top: 8em;
+        /* margin-top: 8em; */
       
 }
 
    /* Add padding to the list items */
     .sidebar-style li {
-        margin-left: 2em;
-        padding: 1.5em; 
+        margin-left: 1.5em;
+        padding: 0.7em; 
      
 }
 
@@ -63,7 +60,7 @@
         text-decoration: none;
         color: white;
         font-weight: bolder;
-        font-size: larger;
+        font-size: 1.2em;
      
      
 }
@@ -79,10 +76,11 @@
     padding: 0; /* Remove default padding */
 }
 /* Style for the icon items */
-.sidebar-icons li {
-    margin-bottom: 25px; /* Add vertical spacing between icons */
-    margin-left: 7em;
-    padding: 1em;
+.sidebar-icons li { 
+    /* Add vertical spacing between icons  */
+    margin-bottom: 20px; 
+    margin-left: 6.4em;
+   
   
  
 }
@@ -165,22 +163,25 @@
 
 
  /* Call to Action */
- .row {
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
- }
+ /* .row {
+    display: flex; */
+    /* -ms-flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    /* margin-right: -15px; */
+    /* margin-left: -15px;
+ } */
 
- .h3-cta {
-    margin-top: 2em;
-    margin-left: 4em;
+ /* .h3-cta {
+    margin-top: 1em;
+    font-size: large;
+    margin-left: 10.2em;
  }
  .button-cta {
   
-    margin-top: 4em;
- }
+    margin-top: 0.8em;
+    border-radius: 0.6em;
+    height: 2em;
+ } */
 
 
 
@@ -191,9 +192,14 @@
     width: 300px;
     height: 100%;
     border-left: #14376c solid 8px;
-  
 
 }  */
+
+
+
+
+
+
 
 /* Skills */
 .container-skills {
