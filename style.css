@@ -13,7 +13,7 @@
 .hr-style {
     border-top: 5px solid #095484;
     width: 60%;
-    margin-left: 8em;
+    margin-left: 19em;
 
 }
 
@@ -49,7 +49,7 @@
    /* Add padding to the list items */
     .sidebar-style li {
         margin-left: 1.5em;
-        padding: 0.7em; 
+        padding: 0.8em; 
      
 }
 
@@ -59,8 +59,8 @@
     .sidebar-style li a {
         text-decoration: none;
         color: white;
-        font-weight: bolder;
-        font-size: 1.2em;
+        /* font-weight: bold; */
+        font-size: 1em;
      
      
 }
@@ -77,9 +77,9 @@
 }
 /* Style for the icon items */
 .sidebar-icons li { 
-    /* Add vertical spacing between icons  */
-    margin-bottom: 20px; 
-    margin-left: 6.4em;
+
+     margin-left: 5.8em; 
+     padding: 0.4em;
    
   
  
@@ -204,7 +204,7 @@
 /* Skills */
 .container-skills {
     margin-top: 25px; /* Add margin to separate from the name */
-    margin-left: 8em;
+    margin-left: 19em;
 
   
 }
