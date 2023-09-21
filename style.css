@@ -216,6 +216,22 @@
 }
 
 
+/* Certifications Section */
+.container-certifications{
+    margin-top: 25px; /* Add margin to separate from the name */
+    margin-left: 19em;
+    margin-bottom: 2em;
+}
+
+.col-certs {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 20em;
+}
+
+
+
+
 /* Portfolio Section */
 
 .container-portfolio {
