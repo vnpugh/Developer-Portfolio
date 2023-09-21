@@ -323,4 +323,28 @@ input[type="hidden"] {
 
 
 
+/* MEDIA QUERIES */
 
+/* sidebar appears on the side, but not in regular mode */
+  /* @media screen and (min-width: 600px) {
+    .sidebar {
+        display: none;
+
+    }
+
+
+  } */
+  
+  
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+
+        display: none;
+
+    }
+
+
+  }
+  
+  
