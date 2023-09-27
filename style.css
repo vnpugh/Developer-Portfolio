@@ -307,31 +307,32 @@ input[type="hidden"] {
 
 
 .name {
-    margin-top: 3em;
-    margin-left: 1em;
+    margin-top: 1em;
+    /* margin-left: 1em; */
+    margin-right: 2em;
 } 
 
 .first-name {
     color: #14376c; /* Change the color as desired */
      /* Add left margin to separate from the last name */
     font-weight: bold;
-    font-size: 10px;
+    font-size: 35px;
     text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
 }
 
 .last-name {
     color: #2d9d8a;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 35px;
     text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
 
 }
 
 /* Developer title */
 .title {
-    margin-left: 2.1em;
+    margin-left: 5.4em;
     font-weight: bold;
-    font-size: 29px;
+    font-size: 23px;
     color: #000000;
 }
 
@@ -340,7 +341,7 @@ input[type="hidden"] {
 }
 
 #helloMessage {
-    margin-left: 4em;
+    margin-left: 6em;
     margin-top: 2em;
     margin-bottom: 2em;
     font-size: 1.3em;
@@ -361,8 +362,8 @@ input[type="hidden"] {
 /* About Me */
 .container-about {
     margin-top: 25px; /* Add margin to separate from the name */
-    margin-left: 4em;
-    margin-right: 1em;
+    margin-left: 2em;
+   
     
 }
 
@@ -373,11 +374,12 @@ font-size: 14px; /* Adjust the paragraph font size */
 line-height: 1.5; /* Set the line height for better readability */
 color: black; /* Set the paragraph text color */
 font-weight: 300;
-margin-right: 6.2em;
+margin-right: 1em;
 }
 
 .about-img {
-   width: 300px;
+   width: 320px;
+   margin-left: 5.8em;
 }
 
 
