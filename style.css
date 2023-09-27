@@ -7,6 +7,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
   
 }
 
@@ -108,7 +109,6 @@
 /* Style the last name */
 .last-name {
     color: #2d9d8a;
-
     font-weight: bold;
     font-size: 1.8em;
     text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
@@ -150,70 +150,12 @@
     font-weight: 300;
 }
 
-/* .about-img {
-    height: 15em;
-    width: 15em;
-  
-   
-} */
 
 
 
 
 
 
- /* Call to Action */
- /* .row {
-    display: flex; */
-    /* -ms-flex-wrap: wrap; */
-    /* flex-wrap: wrap; */
-    /* margin-right: -15px; */
-    /* margin-left: -15px;
- } */
-
- /* .h3-cta {
-    margin-top: 1em;
-    font-size: large;
-    margin-left: 10.2em;
- }
- .button-cta {
-  
-    margin-top: 0.8em;
-    border-radius: 0.6em;
-    height: 2em;
- } */
-
-
-
-/* .art-img {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 300px;
-    height: 100%;
-    border-left: #14376c solid 8px;
-
-}  */
-
-
-
-
-
-
-
-/* Skills */
-.container-skills {
-    margin-top: 25px; /* Add margin to separate from the name */
-    margin-left: 19em;
-
-  
-}
-.img-skills {
-   margin-top: 2em;
-    width: 80%;
-    margin-left: 0.1rem;  
-
-}
 
 
 /* Certifications Section */
@@ -244,7 +186,7 @@
 .container-cards-portfolio {
     margin-top: 2em;
     margin-bottom: 3em;
-    margin-left: 20em;
+    margin-left: 18em;
 
 }
 
@@ -340,27 +282,119 @@ input[type="hidden"] {
 
 
 /* MEDIA QUERIES */
-
-/* sidebar appears on the side, but not in regular mode */
-  /* @media screen and (min-width: 600px) {
-    .sidebar {
-        display: none;
-
-    }
+/* 
+576px: small
+768px: med iPads, Tablets
+992px: large */
 
 
-  } */
   
+@media (max-width: 768px) {
+
+ body{
+    overflow-x: hidden;
+ }
+
+.sidebar {
+ display: none;
   
+}
+.toggle {
+   margin-top: 50px;
+   margin-left: 25px;
+   font-size: x-large;
+   color: #14376c;
+}
 
-@media screen and (max-width: 600px) {
-    .sidebar {
+.name {
+    margin-top: 1.2em;
+    margin-left: 1em;
+} 
 
-        display: none;
+.first-name {
+    color: #14376c; /* Change the color as desired */
+    margin-left: 1em; /* Add left margin to separate from the last name */
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
+}
 
-    }
+.last-name {
+    color: #2d9d8a;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 5px 5px 4px rgba(94, 94, 94, 0.5);
+
+}
+
+/* Developer title */
+.title {
+    margin-left: 2.1em;
+    font-weight: bold;
+    font-size: 29px;
+    color: #000000;
+}
+
+.sidebar-img {
+
+}
+
+#helloMessage {
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.3em;
+}
+
+.hr-style {
+    border-top: 5px solid #095484;
+    width: 60%;
+    margin-left: 19em;
+
+}
+
+    .h2-heading {
+        color: #14376c;
+        font-weight: bold;
+}
+
+/* About Me */
+.container-about {
+    margin-top: 25px; /* Add margin to separate from the name */
+    margin-left: 4em;
+    margin-right: 1em;
+    
+}
+
+
+
+.about-me p {
+font-size: 14px; /* Adjust the paragraph font size */
+line-height: 1.5; /* Set the line height for better readability */
+color: black; /* Set the paragraph text color */
+font-weight: 300;
+margin-right: 6.2em;
+}
+
+.about-img {
+   width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   }
+
+
   
   
